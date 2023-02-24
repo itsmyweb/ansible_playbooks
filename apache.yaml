@@ -1,4 +1,4 @@
-- hosts: 10.195.68.54
+- hosts: all
   remote_user: root
   become: yes
   tasks:
