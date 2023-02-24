@@ -1,4 +1,4 @@
-- hosts: HIC034164.dc.honeywell.com
+- hosts: HIC034141.dc.honeywell.com
   remote_user: root
   become: yes
   tasks:
