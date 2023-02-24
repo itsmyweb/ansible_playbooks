@@ -1,4 +1,4 @@
-- hosts: HIC034141
+- hosts: 10.195.68.54
   remote_user: root
   become: yes
   tasks:
