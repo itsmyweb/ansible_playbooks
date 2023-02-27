@@ -1,6 +1,7 @@
-- hosts: HIC034141.dc.honeywell.com
-  remote_user: root
+- name: Install Apache on hic server
+  hosts: all
   become: yes
+  become_user: root
   tasks:
   - name: Install apache
     yum:
