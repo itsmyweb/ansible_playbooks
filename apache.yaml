@@ -1,5 +1,5 @@
 - name: Install Apache on hic server
-  hosts: all
+  hosts: HIC034164.dc.honeywell.com
   become: yes
   become_user: root
   tasks:
