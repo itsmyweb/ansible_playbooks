@@ -1,5 +1,5 @@
 - name: Install Apache linux server
-  hosts: HIC034141.dc.honeywell.com
+  hosts: all
   become: yes
   become_user: root
   tasks:
