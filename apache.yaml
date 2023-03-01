@@ -1,4 +1,4 @@
-- name: Install Apache on hic server
+- name: Install Apache linux server
   hosts: all
   become: yes
   become_user: root
