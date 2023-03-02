@@ -1,6 +1,6 @@
 ---
 - name: Check connectivity to remote servers
-  hosts: HIC034164.dc.honeywell.com #All
+  hosts: all
   gather_facts: false
   tasks:
     - name: ping
